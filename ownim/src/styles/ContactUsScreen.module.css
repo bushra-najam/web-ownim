@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+  .headerText1 {
+    font-weight: bold;
+    color: lightskyblue;
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  
+  .headerText2 {
+    font-weight: bold;
+    color: #e91e63;
+    font-size: 25px;
+  }
+  
+  .line {
+    border-bottom: 1px solid darkblue;
+    width: 100%;
+  }
+  
+  .txt {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-top: 18px;
+  }
+  
+  .contactCardContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  

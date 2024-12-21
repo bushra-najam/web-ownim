@@ -1,0 +1,74 @@
+.footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.footerBody{
+    display: flex;
+    flex-direction: row;
+    gap: 50;
+}
+
+.img {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.img img {
+    width: auto;
+    max-width: 100%;
+    height: 100px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 8px 0;
+}
+
+.icon{
+    margin-left: 32px;
+}
+.text {
+    margin: 0;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: left;
+    align-self:left ;
+    align-content:flex-start
+}
+
+.follow-us {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    margin: 15px 0;
+    margin-left: 0px;
+}
+
+.detailed-text {
+    cursor: pointer;
+    margin: 8px 0;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 32px;
+}
+
+.services {
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.services .detailed-text {
+    margin: 4px 32px;
+}
